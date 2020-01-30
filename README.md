@@ -21,23 +21,29 @@ Step4, view the report as many times as you wish. Can be run anytime after the d
 python step1.dbsetup.py
 
 python step2.eventanalyzer.py data1.json
+
 arguments: ['step2.eventanalyzer.py', 'data1.json'] data1.json
 Total rows processed from file: 1000
 
 python step3.preparereport.py
 
 python step4.viewreport.py
+
 (20191230, 31)
 (20191231, 33)
 
 python step2.eventanalyzer.py data2.json
+
 arguments: ['step2.eventanalyzer.py', 'data2.json'] data2.json
 Total rows processed from file: 1000
 
 python step3.preparereport.py
+
 python step4.viewreport.py
+
 (20191228, 33)
 (20191229, 31)
 (20191230, 31)
 (20191231, 33)
 
+Thanks a lot for reading!
